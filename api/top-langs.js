@@ -60,7 +60,7 @@ module.exports = async (req, res) => {
         custom_title,
         hide_title: parseBoolean(hide_title),
         hide_border: parseBoolean(hide_border),
-        card_width: parseInt(card_width, 10),
+        card_width: parseInt(card_width, 20),
         hide: parseArray(hide),
         title_color,
         text_color,
